@@ -1,0 +1,27 @@
+$sidebar-bg-color: #4c3494 !default;
+$sidebar-color: white !default;
+$highlight-color: white !default;
+$submenu-bg-color: #7E59EB !default;
+$submenu-bg-color-collapsed: #7E59EB !default;
+$icon-bg-color: white !default;
+$sidebar-width: 220px !default;
+$icon-size: 22px !default;
+
+// @import '~react-pro-sidebar/dist/scss/styles.scss';
+
+.active__sidebar {
+  background-color: #3d3d3a;
+  color: #fff !important;
+  height: 22 !important;
+}
+.pro-sidebar.collapsed .pro-menu > ul {
+  padding: 0 0 0 0 !important;
+}
+
+// .pro-sidebar .pro-inner-list-item .pro-inner-item {
+//   padding: 8px 35px 8px 30px !important;
+// }
+
+// .pro-sidebar .pro-menu .pro-menu-item.pro-sub-menu .pro-inner-list-item {
+//   padding: 0 !important;
+// }

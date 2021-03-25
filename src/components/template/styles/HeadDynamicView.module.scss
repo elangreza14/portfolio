@@ -1,0 +1,41 @@
+.headerviewactive {
+  margin: 0px 40px 5px 0;
+  padding: 5px;
+  border-bottom: 5px solid #4c3494;
+}
+
+.headerviewactive:hover {
+  margin: 0px 40px 5px 0;
+  padding: 5px;
+  border-bottom: 5px solid grey;
+}
+
+.headerviewnonactive {
+  margin: 0px 40px 5px 0;
+  padding: 5px;
+  border-bottom: 5px solid white;
+}
+
+.headerviewnonactive:hover {
+  margin: 0px 40px 5px 0;
+  padding: 5px;
+  border-bottom: 5px solid grey;
+}
+
+.textviewactive {
+  margin: 0px;
+  color: #4c3494;
+  cursor: pointer;
+}
+
+// .textviewnonactive {
+//   margin: 0px;
+//   color: white;
+//   cursor: pointer;
+// }
+
+.textviewactive:hover {
+  margin: 0px;
+  color: grey;
+  cursor: pointer;
+}

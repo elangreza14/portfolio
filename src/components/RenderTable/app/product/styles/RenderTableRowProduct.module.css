@@ -1,0 +1,76 @@
+.dropdown_action,
+.dropdown_action_dua {
+  position: relative;
+  padding: 0;
+}
+
+.dropdown_action_group,
+.dropdown_action_group_dua {
+  font-size: 1.3vmin;
+  position: absolute;
+  background: white;
+  width: 130px;
+  /* top: 2.5vmin; */
+  right: 0;
+  top: -30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.4s ease-in-out;
+  overflow: hidden;
+  height: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropdown_action button,
+.dropdown_action_dua button {
+  font-size: 1.5vmin;
+  background: white;
+  color: #4c3494;
+  border: 1px solid #4c3494;
+}
+
+.dropdown_action button:hover,
+.dropdown_action_dua button:hover {
+  background: #4c3494;
+  color: white;
+  border: 1px solid #4c3494;
+}
+
+.dropdown_action .dropdown_action_ind,
+.dropdown_action_dua .dropdown_action_ind_dua {
+  background: none;
+  border: none;
+  /* font-size: 2vmin; */
+  font-size: 1.3vmin;
+  background: white;
+  color: #4c3494;
+  width: 130px;
+  cursor: pointer;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown_action .dropdown_action_ind:hover {
+  background: #4c3494;
+  color: white;
+}
+
+/* .dropdown_action button:focus + .dropdown_action_group {
+  height: 90px;
+} */
+
+.dropdown_action_dua .dropdown_action_ind_dua:hover {
+  background: #4c3494;
+  color: white;
+}
+
+/* .dropdown_action_dua button:focus + .dropdown_action_group_dua {
+  height: 30px;
+} */

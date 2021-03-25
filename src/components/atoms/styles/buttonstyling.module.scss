@@ -1,0 +1,74 @@
+/* Button style */
+button.button-custom {
+  border: none;
+  border-radius: 2px;
+  padding: 5px 18px;
+  font-size: 1.5vmin;
+  text-transform: capitalize;
+  cursor: pointer;
+  box-shadow: 0 0 4px #999;
+  outline: none;
+  width: 100%;
+}
+
+// primary
+/* Ripple effect */
+.ripple-primary {
+  background-position: center;
+  transition: background 0.8s;
+}
+
+.ripple-primary:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%)
+    center/15000%;
+}
+.ripple-primary:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.button-custom-primary {
+  color: white;
+  background-color: #2196f3;
+}
+
+// danger
+/* Ripple effect */
+.ripple-danger {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple-danger:hover {
+  background: #cf0e0e radial-gradient(circle, transparent 1%, #cf0e0e 1%)
+    center/15000%;
+}
+.ripple-danger:active {
+  background-color: #df6161;
+  background-size: 100%;
+  transition: background 0s;
+}
+.button-custom-danger {
+  color: white;
+  background-color: #cc1a1a;
+}
+
+// warning
+/* Ripple effect */
+.ripple-warning {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple-warning:hover {
+  background: #e97f1c radial-gradient(circle, transparent 1%, #e97f1c 1%)
+    center/15000%;
+}
+.ripple-warning:active {
+  background-color: #e79a5b;
+  background-size: 100%;
+  transition: background 0s;
+}
+.button-custom-warning {
+  color: white;
+  background-color: #d6661b;
+}

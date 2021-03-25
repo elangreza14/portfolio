@@ -1,0 +1,17 @@
+.linktext {
+  width: 250px;
+  background-color: #d0dbdf;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.linktext:hover {
+  background-color: white;
+  padding: 14px 25px;
+  color: d0dbdf;
+  font-size: 120%;
+  transition: ease;
+}

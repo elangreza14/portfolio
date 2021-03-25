@@ -1,0 +1,110 @@
+/* .container-timline {
+  background-color: red;
+} */
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: ' ';
+  background: #878a8f;
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 0;
+  width: 2px;
+  height: calc(100% - 100px);
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 10px 0;
+  padding-left: 0px;
+  padding-top: 0;
+}
+
+.li-timline::before {
+  content: ' ';
+  background-color: #ee4d04;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  left: 1.65px;
+  width: 18px;
+  height: 18px;
+  z-index: 100;
+  border: 3px solid #e5e5e5;
+}
+
+.time {
+  color: #fff;
+  font-size: 0.7em;
+}
+
+.data {
+  font-size: 0.9em;
+  color: #000;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.status {
+  padding: 4px 15px;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 0.8em;
+  background-color: #ee4d04;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.timeline {
+  margin: 0;
+}
+
+.footer-timline-item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  ul.timeline:before {
+    height: calc(100% - 90px);
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  ul.timeline:before {
+    height: calc(100% - 78px);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  ul.timeline:before {
+    height: calc(100% - 59px);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  ul.timeline:before {
+    height: calc(100% - 100px);
+  }
+  .data:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  ul.timeline:before {
+    height: calc(100% - 100px);
+  }
+}
