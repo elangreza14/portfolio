@@ -34,7 +34,7 @@ export const PortoData = [
       'This App is Web Application that Monitor the traffic of kasumi driver in single dashboard Web. You can get current position of driver, controlling schedule of driver in single Web Application. This app also measure distance for driver to calculate from kasumi store to your home',
     images: [
       '/ph/kasumidrivermanagement/1.png',
-      '/ph/kasumidrivermanagement/2.png',
+      // '/ph/kasumidrivermanagement/2.png',
       '/ph/kasumidrivermanagement/3.png',
       '/ph/kasumidrivermanagement/4.png',
       '/ph/kasumidrivermanagement/5.png',
